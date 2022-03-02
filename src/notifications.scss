@@ -14,7 +14,7 @@
 .notification-container {
   box-sizing: border-box;
   position: fixed;
-  top: $react-notifications-container-top;
+  bottom: $react-notifications-container-top;
   right: $react-notifications-container-right;
   z-index: $react-notifications-container-z-index;
   width: $react-notifications-container-width;
@@ -29,7 +29,7 @@
   padding: $react-notifications-padding-top $react-notifications-padding-right $react-notifications-padding-bottom $react-notifications-padding-left;
   border-radius: $react-notifications-border-radius;
   color: $react-notifications-color;
-  background-color: $react-notifications-background-color;
+  background-color: #1f1f26;
   box-shadow: $react-notifications-box-shadow;
   cursor: $react-notifications-cursor;
   font-size: $react-notifications-font-size;
